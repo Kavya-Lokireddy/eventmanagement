@@ -15,25 +15,25 @@ The application demonstrates REST API design principles, Spring Data JPA integra
 
 <b>Project Structure</b>
 src/main/java
- └── com.example.eventmanagement
-     ├── controller
-     ├── service
-     ├── repository
-     ├── model
-     ├── exception
-     └── EventManagementApplication.java
+ └── com.example.eventmanagement \n
+     ├── controller\n
+     ├── service\n
+     ├── repository\n
+     ├── model\n
+     ├── exception\n
+     └── EventManagementApplication.java\n
 
-src/main/resources
- └── application.properties
+src/main/resources\n
+ └── application.properties\n
 
-src/test/java
- └── com.example.eventmanagement
-     └── service
+src/test/java\n
+ └── com.example.eventmanagement\n
+     └── service\n
 
 
- POST   | /api/events      
- GET    | /api/events/{id} 
- GET    | /api/events      
- PUT    | /api/events/{id}
- DELETE | /api/events/{id} 
+ POST   | /api/events      \n
+ GET    | /api/events/{id} \n
+ GET    | /api/events      \n
+ PUT    | /api/events/{id}\n
+ DELETE | /api/events/{id} \n
 
