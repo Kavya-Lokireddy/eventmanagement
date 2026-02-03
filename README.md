@@ -14,21 +14,25 @@ The application demonstrates REST API design principles, Spring Data JPA integra
 - JUnit
 
 <b>Project Structure</b>
-src/main/java
- └── com.example.eventmanagement \n
-     ├── controller\n
-     ├── service\n
-     ├── repository\n
-     ├── model\n
-     ├── exception\n
-     └── EventManagementApplication.java\n
+```
+src/main/java/com/example/eventmanagement/
+├── controller/    # REST Endpoints (API Layer)
+├── service/       # Business Logic (Service Layer)
+├── repository/    # Database Access (Data Layer)
+├── model/         # Data Models (Entities)
+├── exception/     # Global Error Handling
+└── EventManagementApplication.java  # Main Spring Boot Application
 
-src/main/resources\n
- └── application.properties\n
+src/main/resources/
+└── application.properties  # DB and app configurations
 
-src/test/java\n
- └── com.example.eventmanagement\n
-     └── service\n
+src/test/java/com/example/eventmanagement/
+└── service/       # JUnit Tests for Service Layer
+
+pom.xml             # Maven dependencies
+README.md           # Project Documentation
+```
+
 
 
  POST   | /api/events      \n
