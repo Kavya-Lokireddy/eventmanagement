@@ -33,11 +33,11 @@ pom.xml             # Maven dependencies
 README.md           # Project Documentation
 ```
 
-
-
- POST   | /api/events      \n
- GET    | /api/events/{id} \n
- GET    | /api/events      \n
- PUT    | /api/events/{id}\n
- DELETE | /api/events/{id} \n
-
+<b>API Endpoints</b>
+```
+ POST   | /api/events      
+ GET    | /api/events/{id} 
+ GET    | /api/events      
+ PUT    | /api/events/{id}
+ DELETE | /api/events/{id} 
+```
