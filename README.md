@@ -13,7 +13,23 @@ The application demonstrates REST API design principles, Spring Data JPA integra
 - Maven
 - JUnit
 
-     
+<b>Project Structure</b>
+src/main/java
+ └── com.example.eventmanagement
+     ├── controller
+     ├── service
+     ├── repository
+     ├── model
+     ├── exception
+     └── EventManagementApplication.java
+
+src/main/resources
+ └── application.properties
+
+src/test/java
+ └── com.example.eventmanagement
+     └── service
+
 
  POST   | /api/events      
  GET    | /api/events/{id} 
